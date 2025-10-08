@@ -1,5 +1,5 @@
 {% set name = "parsnip-cif" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/glotzerlab/parsnip/archive/v{{ version }}.tar.gz
-  sha256: c86ec5e21e5aa5e1674ddebc80269a4f6af24fe7520ac9b327fcbb93f81e5026
+  sha256: 4650a2fcca97b1106243bbb7511c9480b25ac0128db99784c8961e5008875bac
 
 build:
   noarch: python
